@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap");
+
+.galley {
+  min-height: 100%;
+  display: flex;
+
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 33%;
+  object-fit: cover;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.img:hover {
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+@media (max-width: 700px) {
+  .img {
+    width: 50%;
+    object-fit: cover;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+}

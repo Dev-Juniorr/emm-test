@@ -1,0 +1,121 @@
+.header {
+  background-color: rgba(14, 14, 14, 0.711);
+  margin: 1rem 3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  opacity: 0.9;
+  border: 1px solid #212121;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  font-family: "El Messiri", sans-serif;
+  font-size: 22px;
+  line-height: 1.15;
+  color: #fff177;
+}
+
+.links_button {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.links {
+  display: flex;
+  color: #fff177;
+}
+
+.link {
+  padding: 5px 15px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.link:hover {
+  background-color: rgba(22, 22, 22, 0.616);
+}
+
+.button {
+  background-color: #fff177;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.icons_button {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.social {
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff177;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 800px) {
+  .name {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .links_button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 10px;
+    margin: 1rem 1rem;
+  }
+
+  .icons_button {
+    display: none;
+  }
+
+  .name {
+    display: block;
+    font-size: 20px;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .link {
+    display: none;
+  }
+}
