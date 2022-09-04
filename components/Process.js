@@ -1,8 +1,8 @@
 import styles from "../styles/Process.module.css"
 import process1 from "../public/process1.png"
-import process2 from "../public/process1.png"
-import process3 from "../public/process1.png"
-import process4 from "../public/process1.png"
+import process2 from "../public/process2.png"
+import process3 from "../public/process3.png"
+import process4 from "../public/process4.png"
 import Image from "next/image"
 
 const Process = () => {

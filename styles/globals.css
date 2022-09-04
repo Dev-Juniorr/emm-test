@@ -1,5 +1,7 @@
 html,
 body {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
@@ -33,13 +35,4 @@ a {
 ::-webkit-scrollbar-thumb {
   background-color: rgb(42, 42, 42);
   border-radius: 50px;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: rgb(0, 0, 0);
-  }
 }
