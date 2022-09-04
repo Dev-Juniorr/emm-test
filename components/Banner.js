@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import img from "../public/img.jpg"
 
+
 const Banner = () => {
   return (
     <main className={styles.main} id="home">
