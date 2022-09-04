@@ -7,7 +7,7 @@ import img from "../public/img.jpg"
 const Banner = () => {
   return (
     <main className={styles.main} id="home">
-      <div>
+      <div className={styles.banner}>
         <div className={styles.title}>
           <h1 className={styles.title}>Extensiones Milán Medellín</h1>
         </div>

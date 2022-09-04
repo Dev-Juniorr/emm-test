@@ -8,6 +8,10 @@
   font-family: 'El Messiri', sans-serif;
 }
 
+.banner {
+  z-index: 100;
+}
+
 .title {
   width: 70%;
   z-index: 100;
@@ -31,7 +35,7 @@
   background-position: top right;
   background-size: 50%;
 
-  opacity: 0.2;
+  opacity: 0.3;
   border-radius: 100px 0 0 0;
 }
 
@@ -46,7 +50,7 @@
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 50%;
-  opacity: 0.2;
+  opacity: 0.3;
   border-radius: 0 0 100px 0;
 }
 
@@ -67,6 +71,7 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+    z-index: 100;
 }
 
 .grid {
