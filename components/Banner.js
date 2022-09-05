@@ -12,7 +12,7 @@ const Banner = () => {
           <h1 className={styles.title}>Extensiones Milán Medellín</h1>
         </div>
 
-        <Link href="/reservas">
+        <Link href="/booking">
           <a className={styles.button}> Reservar </a>
         </Link>
 

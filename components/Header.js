@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
         <div className={styles.icons_button}>
-          <Link href="/reservas">
+          <Link href="/booking">
             <a className={styles.button}>Reservar</a>
           </Link>
           <div className={styles.socials}>

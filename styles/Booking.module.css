@@ -1,0 +1,130 @@
+.booking {
+  display: flex;
+}
+
+.img {
+  background-image: url("/img2.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  opacity: 0.6;
+  border-radius: 0 0 100px 0;
+}
+
+.form {
+  width: 50%;
+  padding: 2rem;
+  gap: 20px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section_one {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section_two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name {
+  color: #fff59e;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  color: #fff59e;
+  font-size: 30px;
+}
+
+.doble {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  background-color: rgb(9, 9, 9);
+  border: 1px solid #fff59e50;
+  padding: 15px 20px;
+  outline: none;
+  color: #fff59e;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.input:focus {
+  border: 1px solid #fff59e;
+}
+
+.button {
+  background-color: #ffef62;
+  color: black;
+  padding: 15px 25px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #fff59e50;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #fff27e;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .form {
+    width: 80%;
+    background: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.7)),
+      url("/img.jpg");
+    background-size: cover;
+  }
+  .img {
+    background-image: url("/img2.jpg");
+    width: 70%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    opacity: 0.6;
+    border-radius: 0 0 100px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .img {
+    background-image: url("/img2.jpg");
+    width: 0%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    opacity: 0.6;
+    border-radius: 0 0 100px 0;
+  }
+}
