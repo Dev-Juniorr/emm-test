@@ -34,28 +34,6 @@ const Gallery = () => {
             {" "}
             <Image src={gallery6} />
           </div>
-          <div className={styles.img}>
-            <Image src={gallery1} />
-          </div>
-          <div className={styles.img}>
-            <Image src={gallery2} />
-          </div>
-          <div className={styles.img}>
-            {" "}
-            <Image src={gallery3} />
-          </div>
-          <div className={styles.img}>
-            {" "}
-            <Image src={gallery4} />
-          </div>
-          <div className={styles.img}>
-            {" "}
-            <Image src={gallery5} />
-          </div>
-          <div className={styles.img}>
-            {" "}
-            <Image src={gallery6} />
-          </div>
         </div>
       </section>
     </>
